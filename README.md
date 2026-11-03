@@ -49,32 +49,4 @@
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" height="3" />
 </div>
 
----
 
-# 📡 RB-GONE (Universal Infrared Power Controller)
-
-**RB-Gone** is a custom-engineered firmware and hardware project inspired by classic TV-B-Gone concepts, built from scratch by **Raeed Khan**. Designed to transmit a comprehensive database of universal television power-off infrared (IR) codes, it allows seamless control and testing of display power states using custom microcontrollers.
-
----
-
-## 🌟 Key Hardware & Firmware Features
-
-- **⚡ Universal IR Database:** Embedded protocol libraries supporting a vast array of global TV manufacturer power codes (Sony, Samsung, LG, Philips, Panasonic, etc.).
-- **🔌 Low-Power Microcontroller Optimization:** Designed for efficient power draw, maximizing battery life during portable deployment.
-- **📡 High-Output IR Transmission:** Driven by optimized PWM (Pulse Width Modulation) signals to maximize emitter range and signal reliability.
-- **🛠️ Custom Firmware Architecture:** Written cleanly for quick compiling, debugging, and flashing onto target boards.
-- **🛡️ Compact & Portable Design:** Modular circuit layout allowing easy integration into custom pocket-sized enclosures.
-
----
-
-## 📁 Hardware & Firmware Structure
-
-```text
-RB-Gone/
-├── firmware/       # Source code (.ino / C++ files for microcontrollers)
-├── schemas/        # Circuit diagrams, wiring schematics, and PCB layouts
-├── database/       # IR hex codes, timing arrays, and protocol mappings
-├── docs/           # Hardware specifications and assembly guides
-├── .gitignore      # Ignored temporary build files
-├── LICENSE         # Open-source hardware/software license
-└── README.md       # Project documentation
